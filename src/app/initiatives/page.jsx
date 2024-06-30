@@ -287,14 +287,14 @@ const Initiatives = () => {
               </p>
               <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center">
                 <Link
-                  href="#"
+                  href="/donate"
                   className="inline-flex h-10 items-center justify-center rounded-md bg-indigo-500 px-8 text-sm font-medium text-white shadow-sm transition-colors hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-indigo-700 whitespace-nowrap"
                   prefetch={false}
                 >
                   Donate Now
                 </Link>
                 <Link
-                  href="#"
+                  href="/about"
                   className="inline-flex h-10 items-center justify-center rounded-md border border-input bg-background px-8 text-sm font-medium shadow-sm transition-colors hover:bg-accent hover:text-accent-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
                   prefetch={false}
                 >
