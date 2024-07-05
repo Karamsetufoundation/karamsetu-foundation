@@ -11,9 +11,34 @@ const Footer = () => {
         <div className="flex flex-col items-start md:items-center justify-between gap-4 md:flex-row">
           <div className="flex items-center gap-2">
             <KeyIcon className="h-6 w-6 text-indigo-500" />
-            <span className="text-lg font-bold text-gray-50">
-              Karamsetu Foundation
-            </span>
+            <div className="flex flex-col">
+              <span className="text-lg font-bold text-gray-50">
+                Karamsetu Foundation
+              </span>
+              <div className="flex flex-col">
+                <Link
+                  target="_blank"
+                  href="https://merchant.razorpay.com/policy/ONpUAPJcwsOqcj/terms"
+                  className="text-xs "
+                >
+                  Terms and Conditions
+                </Link>
+                <Link
+                  target="_blank"
+                  href="https://merchant.razorpay.com/policy/ONpUAPJcwsOqcj/refund"
+                  className="text-xs "
+                >
+                  Cancellation and Refund
+                </Link>
+                <Link
+                  target="_blank"
+                  href="https://merchant.razorpay.com/policy/ONpUAPJcwsOqcj/shipping"
+                  className="text-xs "
+                >
+                  Shipping and Delivery
+                </Link>
+              </div>
+            </div>
           </div>
           <div className="flex flex-col items-start gap-4 md:gap-12  md:flex-row  md:items-center">
             <div className="text-sm ">
