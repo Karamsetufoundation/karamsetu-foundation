@@ -50,7 +50,7 @@ const Footer = () => {
           <div className="flex flex-col items-start gap-4 md:gap-12  md:flex-row  md:items-center">
             <div className="text-sm ">
               <p>Sarswati Vihar</p>
-              <p>Kalka Road, Rewari - 12345</p>
+              <p>Kalka Road, Rewari - 123401</p>
               <p>Phone: +91 93060 98949</p>
               <p>Email: karamsetufoundation@gmail.com</p>
             </div>
