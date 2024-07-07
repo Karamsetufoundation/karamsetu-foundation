@@ -16,7 +16,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="shortcut icon" href="#" />
+        <link
+          rel="icon"
+          href=""
+          type="image/png"
+        />
       </head>
       <body className={inter.className}>
         <Navbar />

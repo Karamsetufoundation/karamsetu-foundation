@@ -1,5 +1,5 @@
 import Link from "next/link";
-
+import Image from "next/image";
 const Footer = () => {
   function getCurrentYear() {
     return new Date().getFullYear();
@@ -10,12 +10,19 @@ const Footer = () => {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col items-start md:items-center justify-between gap-4 md:flex-row">
           <div className="flex items-center gap-2">
-            <KeyIcon className="h-6 w-6 text-indigo-500" />
+            <Image src={"/logo.svg"} alt="Logo image" width={32} height={32} />
             <div className="flex flex-col">
               <span className="text-lg font-bold text-gray-50">
                 Karamsetu Foundation
               </span>
               <div className="flex flex-col">
+                <Link
+                  target="_blank"
+                  href="/privacy-policy"
+                  className="text-xs "
+                >
+                  Privacy and Policy
+                </Link>
                 <Link
                   target="_blank"
                   href="https://merchant.razorpay.com/policy/ONpUAPJcwsOqcj/terms"
