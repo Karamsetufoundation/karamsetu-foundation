@@ -149,12 +149,12 @@ function Payment() {
                 />
               </div>
               <div className="space-y-1">
-                <Label>Amount(&gt;50)</Label>
+                <Label>Amount(&gt;5)</Label>
                 <div className="flex gap-2">
                   <Input
                     type="number"
                     step="1"
-                    min={50}
+                    min={5}
                     required
                     value={amount}
                     onChange={(e) => setAmount(e.target.value)}
