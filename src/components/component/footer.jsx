@@ -102,7 +102,7 @@ const Footer = () => {
               &copy; {currentYear} Karamsetu Foundation. All rights reserved.
             </p>
             <p className="text-sm ">
-              Developed And Maintainded By :{" "}
+              Developed And Maintained By :{" "}
               <Link
               target="_blank"
                 href="https://www.linkedin.com/in/yog-ender/"
