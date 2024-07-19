@@ -97,9 +97,21 @@ const Footer = () => {
               </Link>
             </div>
           </div>
-          <p className="text-sm">
-            &copy; {currentYear} Karamsetu Foundation. All rights reserved.
-          </p>
+          <div className="flex flex-col gap-4">
+            <p className="text-sm">
+              &copy; {currentYear} Karamsetu Foundation. All rights reserved.
+            </p>
+            <p className="text-sm ">
+              Developed And Maintainded By :{" "}
+              <Link
+              target="_blank"
+                href="https://www.linkedin.com/in/yog-ender/"
+                className="text-blue-500 font-semibold italic underline underline-offset-2"
+              >
+                Yogender Sharma
+              </Link>
+            </p>
+          </div>
         </div>
       </div>
     </footer>

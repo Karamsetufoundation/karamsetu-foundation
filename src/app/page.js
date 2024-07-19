@@ -108,14 +108,14 @@ export default function Home() {
               <div className="mt-8 flex gap-4">
                 <Link
                   href="/initiatives"
-                  className="inline-flex h-10 items-center justify-center rounded-md bg-indigo-500 px-6 text-sm font-medium text-white shadow-sm transition-colors hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-indigo-700"
+                  className="flex-1 inline-flex h-10 items-center justify-center rounded-md bg-indigo-500 sm:px-6 text-sm font-medium text-white shadow-sm transition-colors hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-indigo-700"
                   prefetch={false}
                 >
                   Explore Our Initiatives
                 </Link>
                 <Link
                   href="/about"
-                  className="inline-flex h-10 items-center justify-center rounded-md border border-indigo-500 bg-white px-6 text-sm font-medium text-indigo-500 shadow-sm transition-colors hover:bg-indigo-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 dark:border-indigo-600 dark:bg-gray-950 dark:text-indigo-600 dark:hover:bg-indigo-700/10 dark:focus:ring-indigo-700"
+                  className="flex-1 inline-flex h-10 items-center justify-center rounded-md border border-indigo-500 bg-white sm:px-6 text-sm font-medium text-indigo-500 shadow-sm transition-colors hover:bg-indigo-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 dark:border-indigo-600 dark:bg-gray-950 dark:text-indigo-600 dark:hover:bg-indigo-700/10 dark:focus:ring-indigo-700"
                   prefetch={false}
                 >
                   Learn More About Us
